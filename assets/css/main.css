@@ -22,7 +22,7 @@
 :root {
   --color-default: #222222;
   --color-primary: #00243a;
-  --color-secondary: #00243a;
+  --color-secondary: #feef7a;
 
   --color-white: hsl(0, 0%, 100%);
 }
@@ -46,7 +46,7 @@ a {
 }
 
 a:hover {
-  color: #3a89c9;
+  color: #feef7a !important;
   text-decoration: none;
 }
 
@@ -169,7 +169,7 @@ section {
   right: 15px;
   bottom: -15px;
   z-index: 3;
-  background: #3a89c9;
+  background: #093E34;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -305,7 +305,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
-  background-color:#3a89c9;
+  background-color:#093E34;
 }
 
 .div-block-24 {
@@ -330,8 +330,8 @@ section {
   top: 0;
   right: 0;
   left: 0;
-  height: 90px;
-  background-color: #3a89c9;
+  height: 100px;
+  background-color: #093E34;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -393,12 +393,14 @@ section {
     justify-content: space-between;
     padding: 0 3px;
     font-family: var(--font-secondary);
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 400;
     color: #fff;
+    letter-spacing: 0.5px;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
+    text-transform: uppercase;
   }
 
   .navbar a i,
@@ -470,7 +472,7 @@ section {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: #3a89c9;
+    color: #093E34;
   }
 
   .navbar .dropdown:hover>ul {
@@ -531,7 +533,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: #3a89c9;
+    background: #093E34;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9999;
@@ -588,7 +590,7 @@ section {
     padding: 0px 0 15px;
     margin: 0px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #3a89c9;
+    background-color: #093E34;
 
   }
 
@@ -1687,7 +1689,7 @@ a:hover {
     margin-top: 40px;
     padding: 8px 12px !important;
     border-radius: 8px;
-    background-color: #3a89c9;
+    background-color: #093E34;
     box-shadow: 1px 1px 3px 2px rgb(6 24 27 / 10%);
     -webkit-transition: background-color 0.5s;
     transition: background-color 0.5s;
@@ -1952,7 +1954,7 @@ a:hover {
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #3a89c9;
+  background-color: #093E34;
 }
 
 .portfolio-details .swiper-button-prev,
@@ -1964,7 +1966,7 @@ a:hover {
 .portfolio-details .swiper-button-prev:after,
 .portfolio-details .swiper-button-next:after {
   color: rgba(255, 255, 255, 0.8);
-  background-color: #3a89c9;
+  background-color: #093E34;
   font-size: 24px;
   border-radius: 50%;
   width: 48px;
@@ -1977,7 +1979,7 @@ a:hover {
 
 .portfolio-details .swiper-button-prev:hover:after,
 .portfolio-details .swiper-button-next:hover:after {
-  background-color: #3a89c9;
+  background-color: #093E34;
 }
 
 @media (max-width: 575px) {
@@ -2361,7 +2363,7 @@ a:hover {
   line-height: 24px;
   color: var(--color-default);
   text-align: left;
-  background: #3a89c9;
+  background: #093E34;
   box-shadow: none;
   border-radius: 10px;
 }
@@ -2586,7 +2588,7 @@ a:hover {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #3a89c9;
+  background: #093E34;
   border: 0;
   padding: 14px 45px;
   color: #fff;
@@ -3502,7 +3504,7 @@ a:hover {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 3px;
-  background-color: #3a89c9;
+  background-color: #093E34;
   color: #fff;
   cursor: pointer;
 }

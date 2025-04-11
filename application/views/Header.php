@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>ADLedger</title>
+    <title>Divyansh</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -26,8 +26,10 @@
     <link href="<?php echo base_url(); ?>/assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link href="<?php echo base_url(); ?>/assets/css/main.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
@@ -41,20 +43,19 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-<style>
-  
-    ul, ol {
-    list-style-type: none;
-}
-@media screen and (max-width:991px) {
-    .navbar .active{
-        color: #000180 !important;
-    }
-        .mtt{
-font-size: 24px;
-}
-    }
-</style>
+    <style>
+        ul,
+        ol {
+            list-style-type: none;
+        }
+
+        @media screen and (max-width:991px) {
+
+            .mtt {
+                font-size: 24px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -64,37 +65,42 @@ font-size: 24px;
 
     <header id="header" class="header d-flex align-items-center addclass nav-down" style="   width:100%;">
 
-        <div class="container-fluid container-xl d-flex align-items-center  row "
-            style="max-width: 100%;margin: auto;        justify-content: space-around;">
-            <a href="<?php echo base_url(); ?>" class="logo d-flex align-items-center col-md-2 col-6 justify-content-start">
+        <div class="container d-flex align-items-center  row "
+            style="  justify-content: space-between;margin:auto;">
+           
                 
-                <img class="ds" src="assets/img/logo.png" style="max-width:250px;" alt=""> 
-                
-                
-            </a>
-            <nav id="navbar" class="navbar col-md-7 ">
-            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+                 
+                <a href="<?php echo base_url(); ?>" class="logo d-flex align-items-center col-md-2 col-6 justify-content-start">
 
-                <ul style="width: 100%;     justify-content: space-around;">
-                    <li><a href="<?php echo base_url(); ?>">Home</a></li>
-                    <li><a href="<?php echo base_url('About_Us'); ?>">About Us</a></li>
-                    <li><a href="<?php echo base_url('Services'); ?>">Services</a></li>
-                    <!-- <li class="dropdown"><a href="Services">Services <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                        <ul>
-                            <li><a href="<?php echo base_url('Accounting'); ?>">Accounting</a></li>
-                           
-                        </ul>
-                    </li> -->
-                   
-                    <li><a href="<?php echo base_url('Articles_and_News'); ?>">Articles & News</a></li>
-                    <li><a href="<?php echo base_url('Contact'); ?>">Contact Us</a></li>
-                    
-                </ul>
-            </nav><!-- .navbar -->
+                    <img class="ds" src="assets/img/logo.png" style="max-width:250px;" alt="">
 
-            <i class="mobile-nav-toggle mobile-nav-show bi bi-list col-6 text-end m-0"></i>
-            
 
-        </div>
+                </a>
+                <nav id="navbar" class="navbar col-md-7 ">
+                    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+                    <ul style="width: 100%;     justify-content: end;">
+                        <li><a href="<?php echo base_url(); ?>">Home</a></li>
+                        <li><a href="<?php echo base_url('About_Us'); ?>">About Us</a></li>
+                        <li><a href="<?php echo base_url('Services'); ?>">Services</a></li>
+                       
+
+                        <li><a href="<?php echo base_url('Articles_and_News'); ?>">Articles & News</a></li>
+                        <li><a href="<?php echo base_url('Contact'); ?>">Contact Us</a></li>
+
+                    </ul>
+                    <ul class="neww"style="width: 100%;     justify-content: end;">
+                        <li><a href="<?php echo base_url(); ?>">Residential</a></li>
+                        <li><a href="<?php echo base_url('About_Us'); ?>">Commercial</a></li>
+                        <li><a href="<?php echo base_url('Services'); ?>">Retail</a></li>
+                        <li><a href="" class="newbtt">Get In Touch</a></li>
+
+                    </ul>
+                </nav><!-- .navbar -->
+
+                <i class="mobile-nav-toggle mobile-nav-show bi bi-list col-6 text-end m-0"></i>
+
+
+            </div>
     </header><!-- End Header -->
-    <!-- End Header --> 
+    <!-- End Header -->
