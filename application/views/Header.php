@@ -57,7 +57,7 @@
             }
         }
         .newbtt {
-    border: 1px solid #feef7a !important;
+    border: 1px solid #ca952f !important;
     border-radius: 0.01rem;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -67,6 +67,9 @@
     padding-top: 7px !important;
     padding-bottom: 7px !important;
     margin-top: 0;
+}
+:root {
+    scroll-behavior: smooth;
 }
 
 .neww a {

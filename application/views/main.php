@@ -25,7 +25,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 }
 
 .navbar a {
-    color: #feef7a;
+    color: #ca952f;
 }
 
 .sticked .navbar a {
@@ -152,8 +152,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
 <section class="p-0">
   <div class="main">
-    <div class="video-section " id="parallax-section">
-      <video width="100%" autoplay muted loop playsinline>
+    <div class="video-section " id="parallax-section" style="background-color: #000;"> 
+      <video width="100%" autoplay muted loop playsinline style="opacity: 0.6;">
         <source src="assets/img/main-video.mp4" type="video/mp4">
 
       </video>

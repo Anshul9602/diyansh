@@ -22,7 +22,7 @@
 :root {
   --color-default: #222222;
   --color-primary: #00243a;
-  --color-secondary: #feef7a;
+  --color-secondary: #ca952f;
 
   --color-white: hsl(0, 0%, 100%);
 }
@@ -46,7 +46,7 @@ a {
 }
 
 a:hover {
-  color: #feef7a !important;
+  color: #ca952f !important;
   text-decoration: none;
 }
 

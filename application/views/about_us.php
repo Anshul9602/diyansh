@@ -1,5 +1,3 @@
-
-
 <link href="<?php echo base_url(); ?>/assets/css/home.css" rel="stylesheet">
 <style>
     .bold {
@@ -28,7 +26,7 @@
         padding-bottom: 15px;
     }
 
-   
+
 
     .mobd {
         display: none;
@@ -58,7 +56,16 @@
         margin-bottom: 30px;
         color: #000000 !important;
     }
-  
+
+    .hd {
+        font-size: 38px;
+        margin-bottom: 20px;
+        line-height: 1.5;
+        color: #454545;
+        font-weight: normal;
+        font-family: 'tintacoated-regular';
+        text-transform: capitalize
+    }
 </style>
 <link href="<?php echo base_url(); ?>/assets/css/mainpage.css" rel="stylesheet">
 
@@ -123,7 +130,7 @@
                     </small>
                 </span>
 
-                
+
 
             </li>
             <li>
@@ -136,5 +143,151 @@
                 </span>
             </li>
         </ul>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 m-auto">
+                <div class="text-center">
+                    <h1 class="hd hd1 mb-0 aos-init aos-animate" data-aos="fade-up">
+                        To date, Divyansh Group has delivered six iconic projects across Delhi NCR, and several more
+                        are in progress – each contributing to the transformation of city skylines and the enrichment of
+                        community life.
+                    </h1>
+                    <!--<h1 class="hd hd1 " data-aos="fade-up">Your private oasis awaits</h1>-->
+                    <!--<p data-aos="fade-up">In the 80’s, Trehan Iris was one of the first few developers of the capital. After building many landmarks for the government of India, Mr JK Trehan went on to develop and change the skyline of Delhi building over 100 projects across the most discerning locations of New Delhi. Each residence is a masterpiece, made for you to enjoy the tranquillity of your own space.</p>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section style="background-color:#e2f3f0 ;">
+    <div class="container mt-md-0 mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center pb-3" style="font-weight: 500;">Core Values </h1>
+                <p class="text-center">Our work is guided by a set of core values that define who we are and shape every project we
+                    undertake:
+                </p>
+            </div>
+        </div>
+        <div class="row mt-md-5 mt-3 justify-content-between" style="align-items: center;">
+
+            <div class="col-md-6 mt-md-0 mt-3 pb-3">
+                <div class="row mt-3">
+                    <div class="col-md-1 col-1" style="margin-top: -5px;padding-right: 0px;text-align: end;"><span><i
+                                class="bi bi-check" style="font-size:25px;"></i></span></div>
+                    <div class="col-md-11 col-11 text-start"> <span class="bold">Community Living:</span> We design developments that foster a sense of community,
+                        encouraging social interaction and a supportive neighborhood atmosphere. </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-1 col-1" style="margin-top: -5px;padding-right: 0px;text-align: end;"><span><i
+                                class="bi bi-check" style="font-size:25px;"></i></span></div>
+                    <div class="col-md-11 col-11 text-start"> <span class="bold">Comfort & Luxury:</span> Every project is built with residents’ comfort in mind, offering
+                        modern amenities and a touch of luxury that enhances everyday living. </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-1 col-1" style="margin-top: -5px;padding-right: 0px;text-align: end;"><span><i
+                                class="bi bi-check" style="font-size:25px;"></i></span></div>
+                    <div class="col-md-11 col-11 text-start"><span class="bold">Uncompromising Quality: </span>From architecture through construction, we adhere to
+                        the highest quality standards, ensuring durability and excellence in every structure.</div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-1 col-1" style="margin-top: -5px;padding-right: 0px;text-align: end;"><span><i
+                                class="bi bi-check" style="font-size:25px;"></i></span></div>
+                    <div class="col-md-11 col-11 text-start"><span class="bold">Sustainability:</span> We incorporate eco-friendly practices and green building concepts,
+                        aiming for developments that are not only beautiful but also gentle on the environment. </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-md-6 mt-md-0 mt-3 pb-3">
+                <div class="row mt-3">
+                    <div class="col-md-1 col-1" style="margin-top: -5px;padding-right: 0px;text-align: end;"><span><i
+                                class="bi bi-check" style="font-size:25px;"></i></span></div>
+                    <div class="col-md-11 col-11 text-start"><span class="bold">Creative Design: </span>Innovation in design is a hallmark of our projects – we embrace
+                        creative architectural concepts to deliver homes that are both aesthetically pleasing and
+                        functionally efficient. </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-1 col-1" style="margin-top: -5px;padding-right: 0px;text-align: end;"><span><i
+                                class="bi bi-check" style="font-size:25px;"></i></span></div>
+                    <div class="col-md-11 col-11 text-start"><span class="bold">Timely Delivery:</span> We respect our customers’ time and investment by ensuring
+                        projects are completed and delivered as promised, without unnecessary delays. </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-1 col-1" style="margin-top: -5px;padding-right: 0px;text-align: end;"><span><i
+                                class="bi bi-check" style="font-size:25px;"></i></span></div>
+                    <div class="col-md-11 col-11 text-start"><span class="bold">Trust & Transparency:</span> Honesty and integrity form the bedrock of our customer
+                        relationships. We prioritize transparency at every step, building trust that lasts well beyond the
+                        handover of keys. </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-1 col-1" style="margin-top: -5px;padding-right: 0px;text-align: end;"><span><i
+                                class="bi bi-check" style="font-size:25px;"></i></span></div>
+                    <div class="col-md-11 col-11 text-start"><span class="bold">Stability & Excellence:</span> We strive for excellence in all aspects of our work and
+                        maintain financial and structural stability in our projects, providing peace of mind to buyers and
+                        partners alike.</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section style="">
+    <div class="container mt-md-0 mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center pb-3" style="font-weight: 500;">Our Commitment </h1>
+                <p class="text-center">At Divyansh Group, we are committed to upholding the highest standards of craftsmanship,
+                    innovation, and customer service. When you choose us, you can expect:
+                </p>
+            </div>
+        </div>
+        <div class="row mt-md-5 mt-3 justify-content-between" style="align-items: center;">
+        <div class="col-md-5 d-flex justify-content-center align-items-center">
+        <img src="assets/Book.png" alt="" width="100%">
+      </div>
+            <div class="col-md-6 mt-md-0 mt-3 pb-3">
+                <div class="row mt-3">
+                    <div class="col-md-1 col-1" style="margin-top: -5px;padding-right: 0px;text-align: end;"><span><i
+                                class="bi bi-check" style="font-size:25px;"></i></span></div>
+                    <div class="col-md-11 col-11 text-start"><span class="bold"> Quality Craftsmanship:</span> Meticulous attention to detail in construction and finishing,
+                        ensuring each home we build is robust, safe, and built to last. </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-1 col-1" style="margin-top: -5px;padding-right: 0px;text-align: end;"><span><i
+                                class="bi bi-check" style="font-size:25px;"></i></span></div>
+                    <div class="col-md-11 col-11 text-start"> <span class="bold">Design Innovation:</span> Cutting-edge designs and thoughtful layouts that maximize
+                        space, natural light, and functionality, providing a modern lifestyle experience in every project. </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-1 col-1" style="margin-top: -5px;padding-right: 0px;text-align: end;"><span><i
+                                class="bi bi-check" style="font-size:25px;"></i></span></div>
+                    <div class="col-md-11 col-11 text-start"><span class="bold">Timely Delivery: </span>Professional project management that guarantees on-schedule
+                        completion and handover, so you can move into your new home as planned. </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-1 col-1" style="margin-top: -5px;padding-right: 0px;text-align: end;"><span><i
+                                class="bi bi-check" style="font-size:25px;"></i></span></div>
+                    <div class="col-md-11 col-11 text-start"><span class="bold">After-Sales Service: </span>Responsive post-possession support and maintenance,
+                        because our relationship with customers continues even after delivery. Your comfort and
+                        satisfaction remain our priority. </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-1 col-1" style="margin-top: -5px;padding-right: 0px;text-align: end;"><span><i
+                                class="bi bi-check" style="font-size:25px;"></i></span></div>
+                    <div class="col-md-11 col-11 text-start"><span class="bold">Customer Satisfaction: </span>A customer-centric approach at every step – from the first
+                        inquiry to the final handover – ensuring that each buyer’s experience is smooth, transparent,
+                        and rewarding. </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
     </div>
 </section>

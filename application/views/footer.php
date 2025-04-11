@@ -21,7 +21,7 @@
     }
 
     .social_icon li .fa {
-        color: #feef7a;
+        color: #ca952f;
         -webkit-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1);
