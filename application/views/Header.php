@@ -29,8 +29,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <!-- Template Main CSS File -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  
     <link href="<?php echo base_url(); ?>/assets/css/main.css" rel="stylesheet">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
@@ -55,6 +56,23 @@
                 font-size: 24px;
             }
         }
+        .newbtt {
+    border: 1px solid #feef7a !important;
+    border-radius: 0.01rem;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    margin-top: 0;
+}
+
+.neww a {
+    font-size: 18px !important;
+
+}
     </style>
 </head>
 
@@ -80,19 +98,19 @@
                     <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
                     <ul style="width: 100%;     justify-content: end;">
-                        <li><a href="<?php echo base_url(); ?>">Home</a></li>
+                       
                         <li><a href="<?php echo base_url('About_Us'); ?>">About Us</a></li>
-                        <li><a href="<?php echo base_url('Services'); ?>">Services</a></li>
+                        <li><a href="<?php echo base_url(''); ?>">What’s in news</a></li>
                        
 
-                        <li><a href="<?php echo base_url('Articles_and_News'); ?>">Articles & News</a></li>
-                        <li><a href="<?php echo base_url('Contact'); ?>">Contact Us</a></li>
+                        <li><a href="<?php echo base_url('Services'); ?>">Craft Your Career</a></li>
+                        <li><a href="<?php echo base_url(''); ?>">Blog</a></li>
 
                     </ul>
                     <ul class="neww"style="width: 100%;     justify-content: end;">
                         <li><a href="<?php echo base_url(); ?>">Residential</a></li>
-                        <li><a href="<?php echo base_url('About_Us'); ?>">Commercial</a></li>
-                        <li><a href="<?php echo base_url('Services'); ?>">Retail</a></li>
+                        <li><a href="<?php echo base_url(''); ?>">Commercial</a></li>
+                        <li><a href="<?php echo base_url(''); ?>">Retail</a></li>
                         <li><a href="" class="newbtt">Get In Touch</a></li>
 
                     </ul>

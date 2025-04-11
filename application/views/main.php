@@ -8,6 +8,148 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 <link rel='stylesheet' id='owl-carousel-css' href='https://www.DIVYANSH greens.com/wp-content/themes/DIVYANSH /assets/css/owl.carousel.min.css?ver=1.0' media='all' />
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <link href="<?php echo base_url(); ?>/assets/css/home.css" rel="stylesheet">
+
+
+<style>
+  section {
+    z-index: 999;
+}
+
+.header {
+    background-color: transparent;
+    position: absolute;
+}
+
+.mobile-nav-toggle {
+    color: #000;
+}
+
+.navbar a {
+    color: #feef7a;
+}
+
+.sticked .navbar a {
+    color: #fff;
+}
+
+.sticked .mobile-nav-toggle {
+    color: #fff !important;
+}
+
+
+
+
+
+
+.def {
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 600px;
+    position: relative;
+    z-index: 2;
+}
+
+.def .container {
+    height: 70%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+}
+
+.defh2 {
+    font-size: 48px;
+    line-height: 1;
+}
+
+.def.un {
+    height: 2px;
+    width: 200px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.def h3 {
+    font-size: 22px;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+
+
+.def p {
+    color: #fff;
+}
+
+.mob {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .def .container {
+
+        text-align: center;
+
+    }
+
+    .bg-black1 {
+
+        min-height: 400px !important;
+
+    }
+
+    .def {
+
+        min-height: 400px !important;
+
+    }
+
+    .text-overlay h1 {
+        margin: 0;
+        font-size: 3em;
+    }
+
+    .desk {
+        display: none;
+    }
+
+    .mob {
+        display: block !important;
+    }
+
+    .text-overlay h3 {
+        margin: 0;
+        font-size: 1em;
+        line-height: 1;
+        letter-spacing: 2px;
+        line-height: 28px;
+    }
+
+    .cou .col-8 {
+        margin: 20px;
+    }
+
+    .cou {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .co1 {
+        margin: 2%;
+    }
+
+    .tc1 {
+        text-align: center;
+    }
+
+    .mtm {
+        margin-top: 50px;
+    }
+}
+
+
+</style>
+
 <section class="p-0">
   <div class="main">
     <div class="video-section " id="parallax-section">

@@ -122,8 +122,8 @@
     }
 
     .media .media-body p {
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 16px;
+     
         margin-bottom: 5px;
         color: #fff;
     }
@@ -133,7 +133,7 @@
     }
 
     .media .media-body .small {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 400;
     }
 

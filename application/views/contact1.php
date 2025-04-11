@@ -64,14 +64,18 @@
 
               <h6 class="col-md-4 col-4" style="font-weight: 700;"><span><i class="bi bi-geo-alt"></i>
                   &nbsp;</span>Location:</h6>
-              <p class="col-md-8 col-8">C-87, Ribhu Path, Bhagirath Marg, Shyam Nagar,Jaipur, (Raj.) - 302019</p>
+              <p class="col-md-8 col-8">Head office: 76 kanti nagar,
+              newr hero honda showroom delhi-110051</p>
+              <p class="col-md-8 col-8">Branch office: plot no 31,32
+gyan khand 1
+indirapuram Ghaziabad</p>
             </div>
 
             <div class="email row">
 
               <h6 class="col-md-4 col-4" style="font-weight: 700;"><span><i class="bi bi-envelope"></i>
                   &nbsp;</span>Email:</h6>
-              <p class="col-md-8 col-8"> adledgerservices@gmail.com
+              <p class="col-md-8 col-8"> info@Divyansh.com
               </p>
             </div>
 
@@ -79,15 +83,16 @@
 
               <h6 class="col-md-4 col-4" style="font-weight: 700;"><span><i class="bi bi-phone"></i> &nbsp;</span>Call:
               </h6>
-              <p class="col-md-8 col-8">+91 141 401 5544,<br>
-                +91 95877 90340</p>
+              <p class="col-md-8 col-8">+91 1234567890,<br>
+               </p>
             </div>
 
           </div>
+        
           <div class="col-md-12 mmmp">
 
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.39231448505194!2d75.76281325891615!3d26.894701708964003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5e5b225b16d%3A0xf542239c61b2aba!2sADLedger%20Services!5e0!3m2!1sen!2sin!4v1707903126806!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4084.225148472976!2d77.27171157607678!3d28.666771875646134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd0058d6fec7%3A0x26839c2e877365e8!2sKanti%20Nagar!5e1!3m2!1sen!2sin!4v1744368795897!5m2!1sen!2sin"
               width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>

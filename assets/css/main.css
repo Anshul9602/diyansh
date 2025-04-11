@@ -304,7 +304,7 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  height: 90px;
+  height: 100px;
   background-color:#093E34;
 }
 
@@ -434,7 +434,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #000180;
+    color: var(--color-secondary);
   }
 
   .navbar .dropdown ul {
