@@ -28,15 +28,15 @@
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
   }
- 
- .review-box{
-   
-    display: none !important;
-}
-::marker {
-    display: none !important;
-}
 
+  .review-box {
+
+    display: none !important;
+  }
+
+  ::marker {
+    display: none !important;
+  }
 </style>
 
 
@@ -53,9 +53,9 @@
   <section id="contact" class="contact">
     <div class="container">
 
-      
-      
-      <div class="row mt-3">
+
+
+      <div class="row mt-3 justify-content-around">
 
         <div class="col-lg-4" data-aos="fade-right">
 
@@ -64,18 +64,23 @@
 
               <h6 class="col-md-4 col-4" style="font-weight: 700;"><span><i class="bi bi-geo-alt"></i>
                   &nbsp;</span>Location:</h6>
-              <p class="col-md-8 col-8">Head office: 76 kanti nagar,
-              newr hero honda showroom delhi-110051</p>
-              <p class="col-md-8 col-8">Branch office: plot no 31,32
-gyan khand 1
-indirapuram Ghaziabad</p>
+                  <div class="col-md-8 col-8">
+                  <p >Head office: 76 Kanti Nagar,
+                Near Hero Honda
+                Showroom, Delhi-110051</p>
+                <p >Branch office: Plot no 31, 32
+                Gyan Khand 1
+                Indirapuram, Ghaziabad </p>
+                  </div>
+             
+              
             </div>
 
             <div class="email row">
 
               <h6 class="col-md-4 col-4" style="font-weight: 700;"><span><i class="bi bi-envelope"></i>
                   &nbsp;</span>Email:</h6>
-              <p class="col-md-8 col-8"> info@Divyansh.com
+              <p class="col-md-8 col-8"> query@divyanshindia.com
               </p>
             </div>
 
@@ -83,12 +88,12 @@ indirapuram Ghaziabad</p>
 
               <h6 class="col-md-4 col-4" style="font-weight: 700;"><span><i class="bi bi-phone"></i> &nbsp;</span>Call:
               </h6>
-              <p class="col-md-8 col-8">+91 1234567890,<br>
-               </p>
+              <p class="col-md-8 col-8">+91-9582275275<br>
+              </p>
             </div>
 
           </div>
-        
+
           <div class="col-md-12 mmmp">
 
             <iframe
@@ -98,7 +103,7 @@ indirapuram Ghaziabad</p>
           </div>
         </div>
 
-        <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+        <div class="col-lg-7 mt-5 mt-lg-0" data-aos="fade-left">
 
           <form action="CTA_mail" method="post" role="form" class="php-email-form">
             <div class="row">

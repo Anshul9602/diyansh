@@ -1,11 +1,9 @@
 <style>
     @media (max-width: 767px) {
-        .mt-2 {
-            text-align: center;
-        }
+        
 
         .tc {
-            text-align: center;
+            text-align: start;
         }
     }
 
@@ -173,11 +171,9 @@
 
     @media (max-width: 767px) {
         .ficonslist{
-            justify-content: center;
+            justify-content: start;
         }
-        .mobjs {
-            justify-content: center !important;
-        }
+        
     }
 </style>
 
@@ -224,7 +220,7 @@
 
                 </div>
                 <div class=" row col-md-9 mt-md-3 mb-md-3 mb-0 mt-0 " style="    justify-content: space-around;">
-                    <div class="col-lg-3 col-md-6 col-6  mt-2  tc">
+                    <div class="col-lg-3 col-md-6 col-6  mt-md-2 mt-3  tc">
                         <div class="div-block-1463">
                             <div class="footer-title">About Us </div>
                         </div>
@@ -241,7 +237,7 @@
                         </div>
                     </div>
                    
-                    <div class="col-lg-3 col-md-6 col-6  mt-2  tc">
+                    <div class="col-lg-3 col-md-6 col-6  mt-md-2 mt-3 tc">
                         <div class="div-block-1463">
                             <div class="footer-title">Projects</div>
                         </div>
@@ -256,7 +252,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-12 col-12 mt-2  tc">
+                    <div class="col-lg-3 col-md-12 col-12 mt-md-2 mt-3  tc">
                         <div class="div-block-1463">
                             <div class="footer-title">Customer Support</div>
                         </div>

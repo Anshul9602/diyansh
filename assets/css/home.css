@@ -266,7 +266,7 @@ section.our_group_sec {
 
 @media screen and (max-width: 991px) {
     .featuredprojects h3 {
-        font-size: 32px;
+        font-size: 24px;
         margin-bottom: 15px;
     }
 }
@@ -425,7 +425,7 @@ section.our_group_sec {
 @media screen and (max-width: 767px) {
     .atsinfra h4 span {
         position: relative;
-        font-size: 70px;
+        font-size: 26px;
     }
 }
 
@@ -580,8 +580,11 @@ section.our_group_sec {
 }
 
 @media screen and (max-width: 767px) {
+  .atsinfra h5 {
+    font-size: 24px;
+  }
     .consdrivenbox h3 {
-        font-size: 32px;
+        font-size: 26px;
         margin-bottom: 15px;
     }
 }

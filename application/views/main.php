@@ -98,7 +98,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       min-height: 400px !important;
 
     }
-
+    .splide__arrows{
+      display: none !important;
+    } 
     .text-overlay h1 {
       margin: 0;
       font-size: 3em;

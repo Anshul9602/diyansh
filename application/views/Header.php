@@ -104,14 +104,17 @@
                        
                         <li><a href="<?php echo base_url('About_Us'); ?>">About Us</a></li>
                         
-                        <li><a href="<?php echo base_url(''); ?>">Blog</a></li>
+                       
+
+                        <li><a href="<?php echo base_url('Services'); ?>">Craft Your Career</a></li>
+                      
 
                     </ul>
                     <ul class="neww"style="width: 100%;     justify-content: end;">
                         <li><a href="<?php echo base_url(); ?>">Residential</a></li>
                         <li><a href="<?php echo base_url(''); ?>">Commercial</a></li>
                         <li><a href="<?php echo base_url(''); ?>">Retail</a></li>
-                        <li><a href="" class="newbtt">Get In Touch</a></li>
+                        <li><a href="<?php echo base_url('Contact'); ?>" class="newbtt">Get In Touch</a></li>
 
                     </ul>
                 </nav><!-- .navbar -->
