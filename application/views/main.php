@@ -13,35 +13,35 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 <style>
   section {
     z-index: 999;
-}
+  }
 
-.header {
+  .header {
     background-color: transparent;
     position: absolute;
-}
+  }
 
-.mobile-nav-toggle {
+  .mobile-nav-toggle {
     color: #000;
-}
+  }
 
-.navbar a {
+  .navbar a {
     color: #ca952f;
-}
+  }
 
-.sticked .navbar a {
+  .sticked .navbar a {
     color: #fff;
-}
+  }
 
-.sticked .mobile-nav-toggle {
+  .sticked .mobile-nav-toggle {
     color: #fff !important;
-}
+  }
 
 
 
 
 
 
-.def {
+  .def {
     background-position: 50% 50%;
     background-size: cover;
     display: flex;
@@ -49,110 +49,108 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     min-height: 600px;
     position: relative;
     z-index: 2;
-}
+  }
 
-.def .container {
+  .def .container {
     height: 70%;
     margin: auto;
     text-align: center;
     color: #fff;
-}
+  }
 
-.defh2 {
+  .defh2 {
     font-size: 48px;
     line-height: 1;
-}
+  }
 
-.def.un {
+  .def.un {
     height: 2px;
     width: 200px;
     background: #fff;
     margin: 0 auto;
-}
+  }
 
-.def h3 {
+  .def h3 {
     font-size: 22px;
     line-height: 1.2;
     margin-top: 20px;
-}
+  }
 
 
-.def p {
+  .def p {
     color: #fff;
-}
+  }
 
-.mob {
+  .mob {
     display: none;
-}
+  }
 
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .def .container {
 
-        text-align: center;
+      text-align: center;
 
     }
 
     .bg-black1 {
 
-        min-height: 400px !important;
+      min-height: 400px !important;
 
     }
 
     .def {
 
-        min-height: 400px !important;
+      min-height: 400px !important;
 
     }
 
     .text-overlay h1 {
-        margin: 0;
-        font-size: 3em;
+      margin: 0;
+      font-size: 3em;
     }
 
     .desk {
-        display: none;
+      display: none;
     }
 
     .mob {
-        display: block !important;
+      display: block !important;
     }
 
     .text-overlay h3 {
-        margin: 0;
-        font-size: 1em;
-        line-height: 1;
-        letter-spacing: 2px;
-        line-height: 28px;
+      margin: 0;
+      font-size: 1em;
+      line-height: 1;
+      letter-spacing: 2px;
+      line-height: 28px;
     }
 
     .cou .col-8 {
-        margin: 20px;
+      margin: 20px;
     }
 
     .cou {
-        justify-content: center;
-        padding: 0;
+      justify-content: center;
+      padding: 0;
     }
 
     .co1 {
-        margin: 2%;
+      margin: 2%;
     }
 
     .tc1 {
-        text-align: center;
+      text-align: center;
     }
 
     .mtm {
-        margin-top: 50px;
+      margin-top: 50px;
     }
-}
-
-
+  }
 </style>
 
 <section class="p-0">
   <div class="main">
-    <div class="video-section " id="parallax-section" style="background-color: #000;"> 
+    <div class="video-section " id="parallax-section" style="background-color: #000;">
       <video width="100%" autoplay muted loop playsinline style="opacity: 0.6;">
         <source src="assets/img/main-video.mp4" type="video/mp4">
 
@@ -168,9 +166,10 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <h3>Featured Projects</h3>
 
         <p class="mt-4">
-          With a legacy built on trust and a future driven by innovation, Divyansh Group continues to
-          redefine excellence in real estate. We invite you to be a part of our journey – experience the
-          innovation, quality, and reliability that set Divyansh Group apart.</p>
+          With a legacy founded on trust and a future shaped by innovation, Divyansh Group continues to
+          set new benchmarks in real estate excellence. We invite you to be part of our journey —
+          experience the craftsmanship, innovation, and unwavering commitment to quality that define the
+          Divyansh promise.</p>
       </div>
 
       <div class="col-md-8 text-white m-0" style="    align-items: center;">
@@ -220,21 +219,21 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
                   <img src="assets/img/fp1.webp" alt="" width="100%">
-                  <p>DIVYANSH  KnightsBridge</p>
+                  <p>DIVYANSH KnightsBridge</p>
                 </div>
 
               </li>
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
                   <img src="assets/img/fp2.webp" alt="" width="100%">
-                  <p>DIVYANSH  KnightsBridge</p>
+                  <p>DIVYANSH KnightsBridge</p>
                 </div>
 
               </li>
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
                   <img src="assets/img/fp3.jpg" alt="" width="100%">
-                  <p>DIVYANSH  KnightsBridge</p>
+                  <p>DIVYANSH KnightsBridge</p>
                 </div>
 
               </li>
@@ -245,10 +244,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </div>
       </div>
       <div class="col-md-4 tc1 mt-md-0 mt-3">
-        <h3>The DIVYANSH  Lifestyle</h3>
+        <h3>Crafting Lifestyles, Not Just
+          Homes</h3>
 
         <p class="mt-4">
-          With each project, we raise our benchmarks and constantly strive to achieve them, with a focused approach through professionalism and transparency - making your life a better experience. The DIVYANSH  homes offer an exclusive living experience with lush green surroundings, modern architecture, world-class amenities, and a host of convenient facilities.</p>
+          With each project, we raise our benchmarks and constantly strive to achieve them, with a focused approach through professionalism and transparency - making your life a better experience. The DIVYANSH homes offer an exclusive living experience with lush green surroundings, modern architecture, world-class amenities, and a host of convenient facilities.</p>
       </div>
     </div>
 
@@ -256,36 +256,37 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 </section>
 
 <div class="constructiondriven">
-    <img src="assets/img/cons.jpg" class="w-100" alt="">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="atsinfra wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                    <h4><span>DIVYANSH </span> Infraheight  <br>Limited</h4>
-                    <h5>The Better Way Home</h5>
-                    <ul class="impactlist" id="counter">
-                        <li><span><span class="count percent">4.6</span><small>Million sq. m space already delivered</small></span></li>
-                        <li><span><span class="count percent">3.7</span><small>Million sq. m under construction</small></span></li>
-                        <li><span><span class="count percent" data-count="35000">35000</span>+<small>Happy Customers</small></span></li>
-                        <li><span><span class="count percent" data-count="4500">4500</span>+<small>Workforce/Employees</small></span></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="offset-lg-1 col-lg-5">
-                <div class="consdrivenbox wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                    <h3>Construction-driven<span>real estate organization</span></h3>
-                    <p>
-                    Our core philosophy goes 
-beyond constructing buildings – we strive to create vibrant communities where comfort, 
-sustainability, and luxury coexist. With a strong presence across Delhi NCR, including key areas 
-like Ghaziabad and Noida, Divyansh Group has built a reputation as a trustworthy developer 
-dedicated to excellence and customer satisfaction.
-                    </p>
-                    <a href="" class="clickbtn">READ MORE</a>
-                </div>
-            </div>
+  <img src="assets/img/cons.jpg" class="w-100" alt="">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="atsinfra wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+          <h4><span>DIVYANSH </span> India <br>Limited</h4>
+          <h5>Crafting Icons of Fine Living</h5>
+          <ul class="impactlist" id="counter">
+            <li><span><span class="count percent">4.6</span><small>Million sq. m space already delivered</small></span></li>
+            <li><span><span class="count percent">3.7</span><small>Million sq. m under construction</small></span></li>
+            <li><span><span class="count percent" data-count="35000">35000</span>+<small>Happy Customers</small></span></li>
+            <li><span><span class="count percent" data-count="4500">4500</span>+<small>Workforce/Employees</small></span></li>
+          </ul>
         </div>
+      </div>
+      <div class="offset-lg-1 col-lg-5">
+        <div class="consdrivenbox wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+          <h3> Building
+            Landmarks, <span>Creating Legacies</span></h3>
+          <p>
+            Our core philosophy goes
+            beyond constructing buildings – we strive to create vibrant communities where comfort,
+            sustainability, and luxury coexist. With a strong presence across Delhi NCR, including key areas
+            like Ghaziabad and Noida, Divyansh Group has built a reputation as a trustworthy developer
+            dedicated to excellence and customer satisfaction.
+          </p>
+          <a href="" class="clickbtn">READ MORE</a>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
 
 
