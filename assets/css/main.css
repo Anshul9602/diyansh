@@ -1713,7 +1713,7 @@ a:hover {
   }
 
   .footer-title {
-
+    text-transform: uppercase;
     font-size: 16px !important;
     line-height: 18px;
 
@@ -3387,6 +3387,7 @@ a:hover {
 }
 
 .footer-title {
+  text-transform: uppercase;
   margin-top: 0;
   color: #fff;
   font-size: 16px;

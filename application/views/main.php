@@ -173,21 +173,21 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <ul class="splide__list">
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp1.webp" alt="" width="100%">
+                  <img src="assets/img/fp.jpg" alt="" width="100%">
                   <p>Divyansh Onyx </p>
                 </div>
 
               </li>
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp2.webp" alt="" width="100%">
+                  <img src="assets/img/fp.jpg" alt="" width="100%">
                   <p> Divyansh Flora</p>
                 </div>
 
               </li>
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp3.jpg" alt="" width="100%">
+                  <img src="assets/img/fp.jpg" alt="" width="100%">
                   <p>Divyansh Orion Homes</p>
                 </div>
 
@@ -213,21 +213,21 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <ul class="splide__list">
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp1.webp" alt="" width="100%">
+                  <img src="assets/img/fp.jpg" alt="" width="100%">
                   <p>DIVYANSH KnightsBridge</p>
                 </div>
 
               </li>
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp2.webp" alt="" width="100%">
+                  <img src="assets/img/fp.jpg" alt="" width="100%">
                   <p>DIVYANSH KnightsBridge</p>
                 </div>
 
               </li>
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp3.jpg" alt="" width="100%">
+                  <img src="assets/img/fp.jpg" alt="" width="100%">
                   <p>DIVYANSH KnightsBridge</p>
                 </div>
 
@@ -251,12 +251,12 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 </section>
 
 <div class="constructiondriven">
-  <img src="assets/img/cons.jpg" class="w-100" alt="">
+  <img src="assets/img/homeb.jpg" class="w-100" alt="">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
         <div class="atsinfra wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-          <h4><span>DIVYANSH </span> India <br>Limited</h4>
+          <h4><span>DIVYANSH </span> India </h4>
           <h5>Crafting Icons of Fine Living</h5>
           <ul class="impactlist" id="counter">
             <li><span><span class="count percent">4.6</span><small>Million sq. m space already delivered</small></span></li>
@@ -269,7 +269,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       <div class="offset-lg-1 col-lg-5">
         <div class="consdrivenbox wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
           <h3> Building
-            Landmarks, <span>Creating Legacies</span></h3>
+            Landmarks, Creating Legacies</h3>
           <p>
             Our core philosophy goes
             beyond constructing buildings – we strive to create vibrant communities where comfort,

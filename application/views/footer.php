@@ -232,35 +232,25 @@
 
                             <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Who We Are</a>
                             <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Our Management</a>
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Group Companies</a>
+                           
                             <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Our Philosophy</a>
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">CSR</a>
+                            
 
 
 
                         </div>
                     </div>
+                   
                     <div class="col-lg-3 col-md-6 col-6  mt-2  tc">
                         <div class="div-block-1463">
-                            <div class="footer-title">What’s in news</div>
+                            <div class="footer-title">Projects</div>
                         </div>
                         <div class="col-footer">
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-25">Awards and Accolades</a>
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Customers Feedback</a>
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Blog</a>
-
-
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-6  mt-2  tc">
-                        <div class="div-block-1463">
-                            <div class="footer-title">Work with us</div>
-                        </div>
-                        <div class="col-footer">
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-25">Craft Your Career</a>
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Employee Value Proposition</a>
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Refuel, Learn & Grow</a>
+                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Residential</a>
+                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Commercial                            </a>
+                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Retail
+                            </a>
+                            
 
 
 
@@ -271,7 +261,8 @@
                             <div class="footer-title">Customer Support</div>
                         </div>
                         <div class="col-footer">
-
+                        <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Craft Your Career</a>
+                            
                             <a href="<?php echo base_url('Contact'); ?>" class="footer-links mt-16">Contact Us</a>
 
 
@@ -289,16 +280,19 @@
                 <div class="col-md-3  row mb-3 mt-3">
 
                     <div class="media ficonslist">
-                        <div class="media-icon align-self-start">
+                        <div class="media-icon align-self-start" style="    min-width: 30px;">
                             <i class="fa fa-map-marker"></i>
                         </div>
                         <div class="media-body">
                             <p>
-                                <span style="font-weight: 600;">Head office:</span> 76 kanti nagar, <br>newr hero honda<br> showroom delhi-110051
-
+                                <span style="font-weight: 600;">Head office:</span> 76 Kanti Nagar,  
+                                Near Hero Honda 
+                                Showroom, Delhi-110051 
                             </p>
 
-                            <p><span style="font-weight: 600;">Branch office:</span> plot no 31,32<br> gyan khand 1 <br>indirapuram Ghaziabad</p>
+                            <p><span style="font-weight: 600;">Branch office:</span> Plot no 31, 32 
+Gyan Khand 1  
+Indirapuram, Ghaziabad </p>
                         </div>
                     </div>
 
@@ -311,11 +305,9 @@
                         </div>
                         <div class="media-body">
                             <p class="f-14">
-                                <a href="tel:01234567890">1234567890 (Board No)</a>
+                                <a href="tel:01234567890">+91-9582275275 </a>
                             </p>
-                            <p class="f-14">
-                                <a href="tel:+9178598850130">+91-1234567890 </a>
-                            </p>
+                            
                             <p class="small">(For sales query only)</p>
                         </div>
                     </div>
@@ -330,7 +322,7 @@
                         <div class="media-body">
                             <p class="f-14">
                                 <a href="mailto:marcom@atsgreens.com">
-                                    info@Divyansh.com
+                                    query@divyanshindia.com
                                 </a>
                             </p>
                         </div>

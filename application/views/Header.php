@@ -103,10 +103,7 @@
                     <ul style="width: 100%;     justify-content: end;">
                        
                         <li><a href="<?php echo base_url('About_Us'); ?>">About Us</a></li>
-                        <li><a href="<?php echo base_url(''); ?>">What’s in news</a></li>
-                       
-
-                        <li><a href="<?php echo base_url('Services'); ?>">Craft Your Career</a></li>
+                        
                         <li><a href="<?php echo base_url(''); ?>">Blog</a></li>
 
                     </ul>
