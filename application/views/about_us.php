@@ -66,8 +66,7 @@
         font-family: 'tintacoated-regular';
         text-transform: capitalize
     }
-</style>
-<style>
+
     /* Popup container */
     .popup {
         display: none;
@@ -124,16 +123,6 @@
         margin-top: 20px;
     }
 
-    @media (max-width:680px) {
-        .popup-content {
-            overflow: hidden;
-            width: 91%;
-            max-height: 85vh;
-            overflow-y: scroll;
-            z-index: 9999999;
-        }
-    }
-
     .cstm-key-popup .member_profile {
         display: flex;
         flex-wrap: wrap;
@@ -153,6 +142,54 @@
         width: 65%;
         padding: 40px;
     }
+
+    @media (max-width:680px) {
+        .popup-content {
+            overflow: hidden;
+            width: 91%;
+            max-height: 85vh;
+            overflow-y: scroll;
+            z-index: 9999999;
+        }
+
+        .cstm_key_people h4 {
+            font-size: 20px !important;
+            text-align: center !important;
+        }
+
+        .cstm_key_people h5 {
+            font-size: 16px !important;
+
+        }
+
+        .cstm-key-popup .member_profile {
+            display: block;
+            flex-wrap: wrap;
+            width: 100%;
+
+        }
+
+        .cstm-key-popup .member_profile_left h1 {
+            font-size: 22px !important;
+        }
+.hd{
+    font-size: 24px!important;
+}
+        .cstm-key-popup .member_profile .member_profile_left {
+            background-color: #eef3fd;
+            width: 100%;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .cstm-key-popup .member_profile .member_profile_right {
+            background-color: #093e34;
+            width: 100%;
+            padding: 40px;
+        }
+    }
+
+
 
     .cstm-key-popup .member_profile_left a {
         color: #093e34;
@@ -196,46 +233,50 @@
     .cstm-key-popup .member_profile_left img {
         width: 100%;
     }
+
     .fusion-builder-row {
-    position: relative;
-    z-index: 2;
-  }
+        position: relative;
+        z-index: 2;
+    }
 
-  .fusion-builder-row h1 {
-    font-weight: 600;
-    font-size: 50px;
-    color: #fff;
-    padding-bottom: 20px;
-  }
+    .fusion-builder-row h1 {
+        font-weight: 600;
+        font-size: 50px;
+        color: #fff;
+        padding-bottom: 20px;
+    }
 
-  .fusion-text {
-    color: white;
-    text-align: center;
-    padding: 20px;
-  }
+    .fusion-text {
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
 
-  .cstm_key_people .member_txt {
-    color: #fff;
-    background-color: rgba(9, 62, 52, .65);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    min-height: 64px;
-    padding: 10px 12px 10px;
-    transition: .4s ease-in-out;
-  }
-  .member_txt h5{
-    margin-bottom: 0;
-  }
-b{
-    font-size: 24px;
-}
-  .cstm_key_people img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-  }
+    .cstm_key_people .member_txt {
+        color: #fff;
+        background-color: rgba(9, 62, 52, .65);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        min-height: 64px;
+        padding: 10px 12px 10px;
+        transition: .4s ease-in-out;
+    }
+
+    .member_txt h5 {
+        margin-bottom: 0;
+    }
+
+    b {
+        font-size: 24px;
+    }
+
+    .cstm_key_people img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+    }
 </style>
 <link href="<?php echo base_url(); ?>/assets/css/mainpage.css" rel="stylesheet">
 <div id="popup1" class="popup cstm-key-popup">
@@ -536,7 +577,7 @@ b{
         </div>
     </div>
 </section>
-<section style="background-color:#e2f3f0 ;">
+<section style="background-color:#e2f3f0 ;" id="core">
     <div class="container mt-md-0 mt-4">
         <div class="row">
             <div class="col-md-12">
@@ -665,17 +706,17 @@ b{
         </div>
     </div>
 </section>
-<section style="background-color: #E7EEF3;">
+<section style="background-color: #E7EEF3;" id="team">
     <div class="container mt-md-5 mt-2 pump">
 
         <h1 class="foot text-center" style="font-weight: 500;   ">Meet Our Experts</h1>
 
 
 
-        <div class="row mt-md-5 mt-3 cstm_key_people  ml-0 mr-0" style="width: 100%;margin-left:0;margin-right:0;">
+        <div class="row mt-md-5 mt-md-3 mt-5 cstm_key_people  ml-0 mr-0" style="width: 100%;margin-left:0;margin-right:0;">
             <h4 class="mb-4 p-0" style="font-weight: 700; text-transform: uppercase;">Managing Partner
             </h4>
-            <div class="col-md-4 col-12  mt-3" style="cursor: pointer;">
+            <div class="col-md-4 col-6  mt-3" style="cursor: pointer;">
                 <div style="position: relative;" class="partner" data-popup="popup1">
                     <img src="<?php echo base_url(); ?>assets/img/blog/team.jpg" alt="" width="100%">
                     <div class="member_txt">
@@ -690,9 +731,9 @@ b{
             <h4 class="mb-4 p-0" style="font-weight: 700;text-transform: uppercase;">Designated Partners
 
             </h4>
-            
-            <div class="col-md-4 col-12 mt-3"style="cursor: pointer;">
-                <div style="position: relative;" class="partner" data-popup="popup8">
+
+            <div class="col-md-4 col-6 mt-3" style="cursor: pointer;">
+                <div style="position: relative;" class="partner" data-popup="popup3">
                     <img src="<?php echo base_url(); ?>assets/img/blog/team.jpg" alt="" width="100%">
                     <div class="member_txt">
                         <h5>Mr. Akash Pathak </h5>
@@ -700,8 +741,8 @@ b{
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-12 mt-3"style="cursor: pointer;">
-                <div style="position: relative;" class="partner" data-popup="popup12">
+            <div class="col-md-4 col-6 mt-3" style="cursor: pointer;">
+                <div style="position: relative;" class="partner" data-popup="popup4">
                     <img src="<?php echo base_url(); ?>assets/img/blog/team.jpg" alt="" width="100%">
                     <div class="member_txt">
                         <h5>Mr. Kshitiz Pathak</h5>
@@ -709,7 +750,7 @@ b{
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-12 mt-3"style="cursor: pointer;">
+            <div class="col-md-4 col-6 mt-3" style="cursor: pointer;">
                 <div style="position: relative;" class="partner" data-popup="popup2">
                     <img src="<?php echo base_url(); ?>assets/img/blog/team.jpg" alt="" width="100%">
                     <div class="member_txt">

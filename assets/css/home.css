@@ -537,7 +537,7 @@ section.our_group_sec {
 
 @media screen and (max-width: 767px) {
     .impactlist.aboutcounter li span {
-        font-size: 42px;
+        font-size: 22px;
         text-align: center;
         display: block;
         margin: 0 auto;

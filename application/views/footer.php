@@ -226,10 +226,10 @@
                         </div>
                         <div class="col-footer">
 
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Who We Are</a>
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Our Management</a>
+                            <a href="<?php echo base_url('About_Us'); ?>" class="footer-links mt-16">Who We Are</a>
+                            <a href="<?php echo base_url('About_Us#team'); ?>" class="footer-links mt-16">Our Management</a>
                            
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Our Philosophy</a>
+                            <a href="<?php echo base_url('About_Us#core'); ?>" class="footer-links mt-16">Our Philosophy</a>
                             
 
 
