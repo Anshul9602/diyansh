@@ -36,11 +36,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     color: #fff !important;
   }
 
-
-
-
-
-
   .def {
     background-position: 50% 50%;
     background-size: cover;

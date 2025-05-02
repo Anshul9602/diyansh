@@ -78,26 +78,47 @@
 
 <section class="content-section">
     <div class="container">
-        <h2 class="section-heading wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Introduction to DIVYANSH </h2>
+        <h2 class="section-heading wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">About Divyansh Group </h2>
         <p class="featurdpara wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-            Divyansh Group is a premier real estate development company based in the Delhi NCR region,
-            renowned for its innovative approach and unwavering commitment to quality.
+        Divyansh Group is a premier real estate development company 
+headquartered in the Delhi NCR region, celebrated for its forward-thinking 
+approach, uncompromising quality standards, and commitment to 
+creating lasting value. 
         </p>
         <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-            Established in
-            1993, we have spent over 30 years shaping the skyline of Delhi NCR with landmark residential
-            projects that blend modern design with superior craftsmanship. Our core philosophy goes
-            beyond constructing buildings – we strive to create vibrant communities where comfort,
-            sustainability, and luxury coexist.
+        Founded in 1993, Divyansh Group has spent over three decades shaping 
+the urban landscape of Delhi NCR with <span class="bold">landmark residential 
+developments</span> that seamlessly blend <span class="bold">contemporary design, superior 
+craftsmanship, and thoughtful community planning.</span> Guided by a 
+vision to go beyond the conventional idea of construction, we believe in 
+building not just homes, but <span class="bold">vibrant, thriving communities</span> where 
+comfort, sustainability, and luxury converge to create elevated living 
+experiences. 
+
         </p>
         <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-            With a strong presence across Delhi NCR, including key areas
-            like Ghaziabad and Noida, Divyansh Group has built a reputation as a trustworthy developer
-            dedicated to excellence and customer satisfaction.
+        Over the years, Divyansh Group has delivered a diverse portfolio of 
+projects, ranging from luxury floors and independent units to large-scale 
+group housing societies. Each project reflects our core philosophy of 
+<span class="bold">precision, innovation, and customer-centricity,</span> with an unwavering 
+focus on quality execution and timely delivery.
         </p>
-        <!--        <p class="wow fadeInUp">
-            ATS homes are known for carrying a soul of their own. With green surroundings, modern architecture, world-class amenities and a host of convenient facilities every ATS home is a story in itself.
-        </p> -->
+        <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+        With a strong presence across key locations such as <span class="bold">Ghaziabad, Noida, 
+Indirapuram, and other parts of Delhi NCR,</span> Divyansh Group has built a 
+reputation as a developer synonymous with <span class="bold">trust, transparency, and 
+excellence.</span> Our deep-rooted relationships with customers, partners, and 
+stakeholders stand as a testament to our ethical practices and consistent 
+pursuit of perfection. 
+        </p>
+        <p class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+        As we continue to grow and expand, we remain dedicated to <span class="bold">embracing 
+technological advancements, adopting sustainable building 
+practices, and elevating lifestyle standards</span> for the modern 
+homeowner. At Divyansh Group, every project is a step toward creating 
+spaces that inspire pride, foster community, and endure the test of time.
+        </p>
+       
     </div>
 </section>
 <section class="bg-blue counter-section">

@@ -395,9 +395,7 @@ section.our_group_sec {
     left: 2em;
 }
 
-.constructiondriven {
-    margin-bottom: -30px !important;
-}
+
 
 .atsinfra h4 {
     font-size: 45px;
@@ -439,7 +437,8 @@ section.our_group_sec {
     font-weight: 300;
 }
 
-.impactlist {
+.impactlist { 
+  padding-left: 0px !important;
     border-top: 1px solid #d8d8d8;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -465,7 +464,7 @@ section.our_group_sec {
     font-weight: 500;
     padding: 20px;
     color: #03878c;
-    text-align: center;
+    text-align: start;
 }
 
 @media screen and (max-width: 1199px) {
