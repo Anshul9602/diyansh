@@ -149,7 +149,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   <div class="main">
     <div class="video-section " id="parallax-section" style="background-color: #000;">
       <video width="100%" autoplay muted loop playsinline style="opacity: 0.6;">
-        <source src="assets/img/main-video.mp4" type="video/mp4">
+        <source src="assets/home-v.mp4" type="video/mp4">
 
       </video>
 
@@ -215,21 +215,21 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <ul class="splide__list">
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp.jpg" alt="" width="100%">
+                  <img src="assets/img/fp1.jpg" alt="" width="100%">
                   <p>DIVYANSH KnightsBridge</p>
                 </div>
 
               </li>
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp.jpg" alt="" width="100%">
+                  <img src="assets/img/fp1.jpg" alt="" width="100%">
                   <p>DIVYANSH KnightsBridge</p>
                 </div>
 
               </li>
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp.jpg" alt="" width="100%">
+                  <img src="assets/img/fp1.jpg" alt="" width="100%">
                   <p>DIVYANSH KnightsBridge</p>
                 </div>
 
@@ -263,8 +263,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           <ul class="impactlist" id="counter">
             <li><span><span class="count percent">4.6</span><small>Million sq. m space already delivered</small></span></li>
             <li><span><span class="count percent">3.7</span><small>Million sq. m under construction</small></span></li>
-            <li><span><span class="count percent" data-count="35000">35000</span>+<small>Happy Customers</small></span></li>
-            <li><span><span class="count percent" data-count="4500">4500</span>+<small>Workforce/Employees</small></span></li>
+            <li><span><span class="count percent" data-count="4000">4000</span>+<small>Happy Customers</small></span></li>
+            <li><span><span class="count percent" data-count="30">30</span>+<small>Years of legacy</small></span></li>
           </ul>
         </div>
       </div>
