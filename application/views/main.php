@@ -175,22 +175,50 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <ul class="splide__list">
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp.jpg" alt="" width="100%">
-                  <p>Divyansh Onyx </p>
+                  <img src="assets/f22/Divya-Towers.jpg" alt="" width="100%">
+                  <p>Divya Towers</p>
                 </div>
 
               </li>
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp.jpg" alt="" width="100%">
-                  <p> Divyansh Flora</p>
+                  <img src="assets/f22/Divyansh-Arc-Angels.jpg" alt="" width="100%">
+                  <p>Divyansh Arc Angels</p>
                 </div>
 
               </li>
               <li class="splide__slide">
                 <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp.jpg" alt="" width="100%">
-                  <p>Divyansh Orion Homes</p>
+                  <img src="assets/f22/Divyansh-Fabio.jpg" alt="" width="100%">
+                  <p>Divyansh Fabio</p>
+                </div>
+
+              </li>
+              <li class="splide__slide">
+                <div class="imagewrapershowtitle">
+                  <img src="assets/f22/Divyansh-Flora.jpg" alt="" width="100%">
+                  <p>Divyansh Flora</p>
+                </div>
+
+              </li>
+              <li class="splide__slide">
+                <div class="imagewrapershowtitle">
+                  <img src="assets/f22/Divyansh-Onyx.jpg" alt="" width="100%">
+                  <p>Divyansh Onyx</p>
+                </div>
+
+              </li>
+              <li class="splide__slide">
+                <div class="imagewrapershowtitle">
+                  <img src="assets/f22/Orion-Homes.jpg" alt="" width="100%">
+                  <p>Orion Homes</p>
+                </div>
+
+              </li>
+              <li class="splide__slide">
+                <div class="imagewrapershowtitle">
+                  <img src="assets/f22/Skardi.jpg" alt="" width="100%">
+                  <p>Skardi</p>
                 </div>
 
               </li>
@@ -258,7 +286,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     <div class="row">
       <div class="col-lg-6">
         <div class="atsinfra wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-          <h4><span>DIVYANSH </span> India </h4>
+          <h4><span>DIVYANSH INDIA </span></h4>
           <h5>Crafting Icons of Fine Living</h5>
           <ul class="impactlist" id="counter">
             <li><span><span class="count percent">4.6</span><small>Million sq. m space already delivered</small></span></li>
@@ -286,6 +314,54 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   </div>
 </div>
 
+<!-- Testimonial Section -->
+<div class="container my-5" id="testimonial-section">
+  <div class="row">
+    <div class="col-12 text-center mb-4">
+      <h2 class="fw-bold">What Our Customers Say</h2>
+      <p class="text-muted">Hear from families who have made Divyansh India their home</p>
+    </div>
+    <div class="col-12">
+      <div class="splide" id="testimonial-slider">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="card h-100 shadow-sm text-center">
+                <img src="assets/img/male.png" class="rounded-circle mx-auto d-block mt-3" alt="Amit Sharma" style="width:70px; height:70px; object-fit:cover;">
+                <div class="card-body">
+                  <p class="card-text">"Divyansh Flora is the perfect blend of comfort and luxury. The amenities and green spaces are amazing!"</p>
+                  <h6 class="card-title mb-0">Amit Sharma</h6>
+                  <small class="text-muted">Greater Noida</small>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="card h-100 shadow-sm text-center">
+                <img src="assets/img/male.png" class="rounded-circle mx-auto d-block mt-3" alt="Priya Verma" style="width:70px; height:70px; object-fit:cover;">
+                <div class="card-body">
+                  <p class="card-text">"We love the community and the modern design of our new home at Divyansh Fabio. Highly recommended!"</p>
+                  <h6 class="card-title mb-0">Ajay Verma</h6>
+                  <small class="text-muted">Ghaziabad</small>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="card h-100 shadow-sm text-center">
+                <img src="assets/img/male.png" class="rounded-circle mx-auto d-block mt-3" alt="Rahul Singh" style="width:70px; height:70px; object-fit:cover;">
+                <div class="card-body">
+                  <p class="card-text">"The team at Divyansh India made the buying process smooth and transparent. We are very happy!"</p>
+                  <h6 class="card-title mb-0">Rahul Singh</h6>
+                  <small class="text-muted">Noida</small>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Testimonial Section -->
 
 <script>
   // Parallax effect using JavaScript
@@ -322,24 +398,37 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   });
 </script>
 <script>
-  var splide = new Splide('#fp', {
-    type: 'loop',
-    autoplay: true,
-    interval: 3000, // Time in milliseconds between slides (optional)
-    pauseOnHover: true,
-    pagination: false, // Hides the dots
+  document.addEventListener('DOMContentLoaded', function () {
+    var splide1 = new Splide('#fp', {
+      type: 'loop',
+      autoplay: true,
+      interval: 3000, // 3 seconds between slides
+      pauseOnHover: true,
+      pagination: false,
+      arrows: true
+    });
+    splide1.mount();
+
+    var splide2 = new Splide('#fp1', {
+      type: 'loop',
+      autoplay: true,
+      interval: 3000,
+      pauseOnHover: true,
+      pagination: false,
+      arrows: true
+    });
+    splide2.mount();
+
+    var testimonialSplide = new Splide('#testimonial-slider', {
+      type: 'loop',
+      autoplay: true,
+      interval: 4000,
+      pauseOnHover: true,
+      pagination: true,
+      arrows: false,
+      perPage: 3,
+      gap: 20,
+    });
+    testimonialSplide.mount();
   });
-
-  splide.mount();
-
-
-  var splide = new Splide('#fp1', {
-    type: 'loop',
-    autoplay: true,
-    interval: 3000, // Time in milliseconds between slides (optional)
-    pauseOnHover: true,
-    pagination: false, // Hides the dots
-  });
-
-  splide.mount();
 </script>

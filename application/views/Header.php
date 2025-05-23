@@ -76,6 +76,10 @@
     font-size: 18px !important;
 
 }
+    .navbar>ul>li>a.newbtt:before { 
+    content: "";
+            position: relative;
+}
     </style>
 </head>
 
@@ -100,20 +104,12 @@
                 <nav id="navbar" class="navbar col-md-7 ">
                     <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
-                    <ul style="width: 100%;     justify-content: end;">
-                       
-                        <li><a href="<?php echo base_url('About_Us'); ?>">About Us</a></li>
-                        
-                       
-
-                        <li><a href="<?php echo base_url('Services'); ?>">Craft Your Career</a></li>
-                      
-
-                    </ul>
+                  
                     <ul class="neww"style="width: 100%;     justify-content: end;">
-                        <li><a href="<?php echo base_url(); ?>">Residential</a></li>
-                        <li><a href="<?php echo base_url(''); ?>">Commercial</a></li>
-                        <li><a href="<?php echo base_url(''); ?>">Retail</a></li>
+                        <li><a href="<?php echo base_url('About_Us'); ?>">About Us</a></li>
+                        <li><a href="<?php echo base_url('Residential'); ?>">Residential</a></li>
+                        <li><a href="<?php echo base_url(); ?>#testimonial-section">Testimonial</a></li>
+                       
                         <li><a href="<?php echo base_url('Contact'); ?>" class="newbtt">Get In Touch</a></li>
 
                     </ul>

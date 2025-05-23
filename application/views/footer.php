@@ -242,11 +242,8 @@
                             <div class="footer-title">Projects</div>
                         </div>
                         <div class="col-footer">
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Residential</a>
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Commercial                            </a>
-                            <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Retail
-                            </a>
-                            
+                            <a href="<?php echo base_url('Residential'); ?>" class="footer-links mt-16">Residential</a>
+                          
 
 
 
@@ -257,7 +254,7 @@
                             <div class="footer-title">Customer Support</div>
                         </div>
                         <div class="col-footer">
-                        <a href="<?php echo base_url(''); ?>" class="footer-links mt-16">Craft Your Career</a>
+                        <a href="<?php echo base_url('Csr'); ?>" class="footer-links mt-16">CSR</a>
                             
                             <a href="<?php echo base_url('Contact'); ?>" class="footer-links mt-16">Contact Us</a>
 
@@ -332,7 +329,7 @@ Indirapuram, Ghaziabad </p>
                 <div class="footer-copyw tc">
 
                     <p class="text-center container mob-size" style=" font-size:14px; color:#f1f1f1; padding:5px;font-weight: 300;">
-                        Copyright © 2025 Divyansh . All Rights Reserved. Developed By
+                        Copyright © 2025 Divyansh India. All Rights Reserved. Developed By
                         <a href="https://theodin.in/" style="color:#fff;    text-decoration: underline;">
                             The Odin</a> .
                     </p>
