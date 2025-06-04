@@ -13,32 +13,56 @@ class CTA_mail extends CI_Controller
 
 		// Storing google recaptcha response
 		// in $recaptcha variable
-		$this->load->library('email');
-		$config['protocol'] = 'smtp';
-		$config['smtp_host'] = 'ssl://smtp.gmail.com';
-		$config['smtp_port'] = '465';
-		$config['smtp_timeout'] = '7';
-		$config['smtp_user'] = 'contact.adledger@gmail.com';
-		$config['smtp_pass'] = 'ottxbxionpddrcmb';
-		$config['charset'] = 'utf-8';
-		$config['newline'] = "\r\n";
-		$config['mailtype'] = 'html'; // or html
-		$config['validation'] = TRUE; // bool whether to validate email or not
-		$this->email->initialize($config);
-		$from = $_POST['email'];
-		$to = 'contact.adledger@gmail.com';
-		$subject = 'ADLedger Contact';
-		$message = 'Hello Team, <br /> You have a contact request on ADLedger Portal. <br />';
-		unset($_POST['g-recaptcha-response']);
-		foreach ($_POST as $key => $value) {
-			$message = $message . $key . '- ' . $value . '<br>';
-		}
-		$this->email->set_newline("\r\n");
-		$this->email->from($from);
-		$this->email->to($to);
-		$this->email->subject($subject);
-		$this->email->message($message);
-		$this->email->send();
-		redirect(base_url(''));
+		 $this->load->library('email');
+
+	$config['protocol']    = 'smtp';
+	$config['smtp_host']    = 'ssl://smtp.gmail.com';
+	$config['smtp_port']    = '465';
+	$config['smtp_timeout'] = '7';
+	$config['smtp_user']    = 'theodinjaipur@gmail.com';
+	$config['smtp_pass']    = 'yjehyfcyrtqvbpsq';
+	$config['charset']    = 'utf-8';
+	$config['newline']    = "\r\n";
+	$config['mailtype'] = 'html'; // or html
+	$config['validation'] = TRUE; // bool whether to validate email or not
+
+	$this->email->initialize($config);
+	
+	$from = 'theodinjaipur@gmail.com';
+	$to = 'anshulkumar969602@gmail.com';
+//    $to = 'purplepeoplelabsquery@gmail.com';
+
+
+	$message = 'Hello Team, <br /> You have a contact request on Divyansh India Portal. <br />
+	<table>
+  <tr>
+    <th style="width:20%;">Heading</th>
+    <th style="width:70%;">text</th>
+    
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+   
+  </tr>
+  
+</table>
+	
+	
+	';
+	unset($_POST['g-recaptcha-response']);
+
+	
+
+
+	$this->email->set_newline("\r\n");
+	$this->email->from($from);
+	$this->email->to($to);
+	$this->email->subject('New Contact Message');
+	$this->email->message($message);
+	print_r($message);
+	die;
+	$this->email->send();;
+		
 	}
 }

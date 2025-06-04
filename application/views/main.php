@@ -238,35 +238,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 
 
       <div class="col-md-8 text-white m-0" style="    align-items: center;">
-        <div class="splide" role="group" id="fp1">
-          <div class="splide__track">
-            <ul class="splide__list">
-              <li class="splide__slide">
-                <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp1.jpg" alt="" width="100%">
-                  <p>DIVYANSH KnightsBridge</p>
-                </div>
-
-              </li>
-              <li class="splide__slide">
-                <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp1.jpg" alt="" width="100%">
-                  <p>DIVYANSH KnightsBridge</p>
-                </div>
-
-              </li>
-              <li class="splide__slide">
-                <div class="imagewrapershowtitle">
-                  <img src="assets/img/fp1.jpg" alt="" width="100%">
-                  <p>DIVYANSH KnightsBridge</p>
-                </div>
-
-              </li>
-
-
-            </ul>
-          </div>
-        </div>
+      <img src="assets/img/fp1.jpg" alt="" width="100%">
+        
       </div>
       <div class="col-md-4 tc1 mt-md-0 mt-3">
         <h3>Crafting Lifestyles, Not Just
@@ -289,8 +262,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           <h4><span>DIVYANSH INDIA </span></h4>
           <h5>Crafting Icons of Fine Living</h5>
           <ul class="impactlist" id="counter">
-            <li><span><span class="count percent">4.6</span><small>Million sq. m space already delivered</small></span></li>
-            <li><span><span class="count percent">3.7</span><small>Million sq. m under construction</small></span></li>
+            <li><span><span class="count percent"  data-count="4.6">4.6</span>+<small>Million sq. m space already delivered</small></span></li>
+            <li><span><span class="count percent" data-count="3.7">3.7</span>+<small>Million sq. m under construction</small></span></li>
             <li><span><span class="count percent" data-count="4000">4000</span>+<small>Happy Customers</small></span></li>
             <li><span><span class="count percent" data-count="30">30</span>+<small>Years of legacy</small></span></li>
           </ul>
@@ -307,7 +280,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             like Ghaziabad and Noida, Divyansh Group has built a reputation as a trustworthy developer
             dedicated to excellence and customer satisfaction.
           </p>
-          <a href="" class="clickbtn">READ MORE</a>
+          <a href="<?php echo base_url('About_Us'); ?>" class="clickbtn">READ MORE</a>
         </div>
       </div>
     </div>
@@ -327,7 +300,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           <ul class="splide__list">
             <li class="splide__slide">
               <div class="card h-100 shadow-sm text-center">
-                <img src="assets/img/male.png" class="rounded-circle mx-auto d-block mt-3" alt="Amit Sharma" style="width:70px; height:70px; object-fit:cover;">
+                <img src="assets/t1.jpg" class="rounded-circle mx-auto d-block mt-3" alt="Amit Sharma" style="width:70px; height:70px; object-fit:cover;">
                 <div class="card-body">
                   <p class="card-text">"Divyansh Flora is the perfect blend of comfort and luxury. The amenities and green spaces are amazing!"</p>
                   <h6 class="card-title mb-0">Amit Sharma</h6>
@@ -337,17 +310,17 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             </li>
             <li class="splide__slide">
               <div class="card h-100 shadow-sm text-center">
-                <img src="assets/img/male.png" class="rounded-circle mx-auto d-block mt-3" alt="Priya Verma" style="width:70px; height:70px; object-fit:cover;">
+                <img src="assets/t2.jpg" class="rounded-circle mx-auto d-block mt-3" alt="Priya Verma" style="width:70px; height:70px; object-fit:cover;">
                 <div class="card-body">
                   <p class="card-text">"We love the community and the modern design of our new home at Divyansh Fabio. Highly recommended!"</p>
-                  <h6 class="card-title mb-0">Ajay Verma</h6>
+                  <h6 class="card-title mb-0">Neha Verma</h6>
                   <small class="text-muted">Ghaziabad</small>
                 </div>
               </div>
             </li>
             <li class="splide__slide">
               <div class="card h-100 shadow-sm text-center">
-                <img src="assets/img/male.png" class="rounded-circle mx-auto d-block mt-3" alt="Rahul Singh" style="width:70px; height:70px; object-fit:cover;">
+                <img src="assets/t3.jpg" class="rounded-circle mx-auto d-block mt-3" alt="Rahul Singh" style="width:70px; height:70px; object-fit:cover;">
                 <div class="card-body">
                   <p class="card-text">"The team at Divyansh India made the buying process smooth and transparent. We are very happy!"</p>
                   <h6 class="card-title mb-0">Rahul Singh</h6>
@@ -409,15 +382,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     });
     splide1.mount();
 
-    var splide2 = new Splide('#fp1', {
-      type: 'loop',
-      autoplay: true,
-      interval: 3000,
-      pauseOnHover: true,
-      pagination: false,
-      arrows: true
-    });
-    splide2.mount();
+   
 
     var testimonialSplide = new Splide('#testimonial-slider', {
       type: 'loop',

@@ -286,7 +286,7 @@
             <!-- Left Side -->
             <div class="member_profile_left">
                 <figure>
-                    <img src="<?php echo base_url(); ?>assets/img/blog/team.jpg">
+                    <img src="<?php echo base_url(); ?>assets/chanderjeet.jpg">
                 </figure>
                 <h1>Mr. Chanderjeet Pathak</h1>
                 <p><b>Chairman</b></p>
@@ -330,7 +330,7 @@
             <!-- Left Side -->
             <div class="member_profile_left">
                 <figure>
-                    <img src="<?php echo base_url(); ?>assets/img/blog/team.jpg">
+                    <img src="<?php echo base_url(); ?>assets/shivansh.jpg">
                 </figure>
                 <h1>Mr. Shivansh Pathak</h1>
                 <p><b>Director</b></p>
@@ -380,7 +380,7 @@
             <!-- Left Side -->
             <div class="member_profile_left">
                 <figure>
-                    <img src="<?php echo base_url(); ?>assets/img/blog/team.jpg">
+                    <img src="<?php echo base_url(); ?>assets/aakash.jpg">
                 </figure>
                 <h1>Mr. Akash Pathak</h1>
                 <p><b>Director</b></p>
@@ -426,7 +426,7 @@
             <!-- Left Side -->
             <div class="member_profile_left">
                 <figure>
-                    <img src="<?php echo base_url(); ?>assets/part/as.jpg">
+                    <img src="<?php echo base_url(); ?>assets/kshitiz.jpg">
                 </figure>
                 <h1>Mr. Kshitiz Pathak</h1>
                 <p><b>Director</b></p>
@@ -520,28 +520,28 @@
         <ul class="impactlist aboutcounter" id="counter">
             <li>
                 <span>
-                    <span class="count percent" data-count="35">35</span>
+                    <span class="count percent" data-count="4.6">4.6</span>
                     +
                     <small>
-                        Projects delivered
+                        Million sq. m space already delivered
                     </small>
                 </span>
             </li>
             <li>
                 <span>
-                    <span class="count percent" data-count="23">23</span>
+                    <span class="count percent" data-count="3.7">3.7</span>
                     +
                     <small>
-                        Projects in making
+                        Million sq. m under construction
                     </small>
                 </span>
             </li>
             <li class="counterchange">
                 <span class="showbefore">
-                    <span class="count percent" data-count="4.6">4.6</span>
+                    <span class="count percent" data-count="4000">4000</span>
                     +
                     <small>
-                        Million sq. m of residential space already delivered
+                        Happy Customers
                     </small>
                 </span>
 
@@ -550,10 +550,10 @@
             </li>
             <li>
                 <span>
-                    <span class="count percent" data-count="35000">35000</span>
+                    <span class="count percent" data-count="30">30</span>
                     +
                     <small>
-                        Happy Customers
+                        Years of legacy
                     </small>
                 </span>
             </li>
@@ -663,7 +663,7 @@
         </div>
         <div class="row mt-md-5 mt-3 justify-content-between" style="align-items: center;">
             <div class="col-md-5 d-flex justify-content-center align-items-center">
-                <img src="assets/Book.png" alt="" width="100%">
+                <img src="assets/vision.jpg" alt="" width="100%">
             </div>
             <div class="col-md-6 mt-md-0 mt-3 pb-3">
                 <div class="row mt-3">
@@ -718,7 +718,7 @@
             </h4>
             <div class="col-md-4 col-6  mt-3" style="cursor: pointer;">
                 <div style="position: relative;" class="partner" data-popup="popup1">
-                    <img src="<?php echo base_url(); ?>assets/img/blog/team.jpg" alt="" width="100%">
+                    <img src="<?php echo base_url(); ?>assets/chanderjeet.jpg" alt="" width="100%">
                     <div class="member_txt">
                         <h5> Mr. Chanderjeet Pathak </h5>
                         <span>Chairman</span>
@@ -734,7 +734,7 @@
 
             <div class="col-md-4 col-6 mt-3" style="cursor: pointer;">
                 <div style="position: relative;" class="partner" data-popup="popup3">
-                    <img src="<?php echo base_url(); ?>assets/img/blog/team.jpg" alt="" width="100%">
+                    <img src="<?php echo base_url(); ?>assets/aakash.jpg" alt="" width="100%">
                     <div class="member_txt">
                         <h5>Mr. Akash Pathak </h5>
                         <span>Director</span>
@@ -743,7 +743,7 @@
             </div>
             <div class="col-md-4 col-6 mt-3" style="cursor: pointer;">
                 <div style="position: relative;" class="partner" data-popup="popup4">
-                    <img src="<?php echo base_url(); ?>assets/img/blog/team.jpg" alt="" width="100%">
+                    <img src="<?php echo base_url(); ?>assets/kshitiz.jpg" alt="" width="100%">
                     <div class="member_txt">
                         <h5>Mr. Kshitiz Pathak</h5>
                         <span>Director</span>
@@ -752,7 +752,7 @@
             </div>
             <div class="col-md-4 col-6 mt-3" style="cursor: pointer;">
                 <div style="position: relative;" class="partner" data-popup="popup2">
-                    <img src="<?php echo base_url(); ?>assets/img/blog/team.jpg" alt="" width="100%">
+                    <img src="<?php echo base_url(); ?>assets/shivansh.jpg" alt="" width="100%">
                     <div class="member_txt">
                         <h5>Mr. Shivansh Pathak</h5>
                         <span>Director</span>
