@@ -382,7 +382,7 @@
                 <figure>
                     <img src="<?php echo base_url(); ?>assets/aakash.jpg">
                 </figure>
-                <h1>Mr. Akash Pathak</h1>
+                <h1>Mr. Aakash Pathak</h1>
                 <p><b>Director</b></p>
 
                 <ul class="social-icons list-inline d-none">
@@ -393,7 +393,7 @@
             <!-- Right Side -->
             <div class="member_profile_right">
                 <div class="at-above-post addthis_tool" data-url=""></div>
-                <p>Mr. Akash Pathak, Director at Divyansh Group, is a key pillar of the organization's continued
+                <p>Mr. Aakash Pathak, Director at Divyansh Group, is a key pillar of the organization's continued
                     growth and success. With a background in civil engineering, he brings deep technical expertise,
                     strategic insight, and an unwavering commitment to quality across every project he undertakes. </p>
 
@@ -409,7 +409,7 @@
                     satisfaction, and innovation has been instrumental in strengthening Divyansh Group’s standing
                     in a highly competitive market.</p>
                 <p>With a strong commitment to advancing the Group’s legacy while embracing modern
-                    construction practices, Mr. Akash Pathak continues to drive Divyansh’s vision forward —
+                    construction practices, Mr. Aakash Pathak continues to drive Divyansh’s vision forward —
                     building spaces that embody excellence, trust, and timeless value</p>
                 <div class="at-below-post addthis_tool" data-url=""></div>
                 <!-- AddThis Share Buttons generic via filter on the_content -->
@@ -736,7 +736,7 @@
                 <div style="position: relative;" class="partner" data-popup="popup3">
                     <img src="<?php echo base_url(); ?>assets/aakash.jpg" alt="" width="100%">
                     <div class="member_txt">
-                        <h5>Mr. Akash Pathak </h5>
+                        <h5>Mr. Aakash Pathak </h5>
                         <span>Director</span>
                     </div>
                 </div>
